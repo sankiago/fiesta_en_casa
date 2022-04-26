@@ -18,5 +18,5 @@ const downloadAudio = async (path, filename) => {
 const numeroDeCanciones = 30
 
 for(let i=0; i<numeroDeCanciones; i++){
-    downloadAudio(`./audio/${i+1}.m4a`,i+1)
+    downloadAudio(`./${i+1}.m4a`,i+1)
 }
